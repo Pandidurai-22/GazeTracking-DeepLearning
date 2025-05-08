@@ -1,0 +1,14 @@
+requirements for windows:
+Python version - 3.10 or 3.11 or any stable version
+Open cv- pip install opencv-python
+Media pipe - pip install mediapipe 
+pytorch - pip install torch torchvision torchaudio
+seaborn - pip install seaborn
+
+
+The program begins by importing necessary libraries, 
+including OpenCV for image processing, 
+NumPy for numerical operations, 
+MediaPipe for face and landmark detection, 
+and PyTorch for model handling.
+The GazeEstimationModel class is defined to initialize the gaze estimation model (either ResNet or EfficientNet)
